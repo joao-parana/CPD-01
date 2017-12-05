@@ -56,7 +56,7 @@ timestamp, AccelerationX, AccelerationY, AccelerationZ, MagneticFieldX, Magnetic
 
 O nome do arquivo é `measure1_smartwatch_sens_6mi.csv` e ele possui `6.382.111` tuplas com um total de `6.609.717.442` bytes
 
-Como é muito grande foi necessário compactar para adicionar ao GitHub.
+Como é muito grande foi necessário compactar e depois fazer `split` para adicionar ao GitHub.
 
 Para descompactar faça:
 
@@ -64,3 +64,4 @@ Para descompactar faça:
 cat dataset-targz-aa dataset-targz-ab dataset-targz-ac > measure1_smartwatch_sens_6mi.csv.tar.gz
 tar -xzvf measure1_smartwatch_sens_6mi.csv.tar.gz
 ```
+
